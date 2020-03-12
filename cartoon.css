@@ -65,7 +65,6 @@ button{
     height: 60%;
     border: rgb(6, 49, 92) solid 5px;
     border-radius: 20px;
-    /* background-image: url(imgs/img1.jpg); */
     background-size: cover;
     background-position: center;
 }

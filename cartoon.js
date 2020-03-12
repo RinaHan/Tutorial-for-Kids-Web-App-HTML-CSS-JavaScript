@@ -50,7 +50,6 @@ function nextbuttonon() {
         centerstate = 5;
     } else if (centerstate === 5) {
         document.querySelector("#center").style.backgroundImage = "url(imgs/img5.jpg)";
-        // document.querySelector("#img4").className = "done";
         document.querySelector("#img5").className = "active";
         centerstate = 1;
     }
