@@ -1,0 +1,70 @@
+html, body{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    flex: 1;
+    background-color: rgb(62, 208, 252);
+}
+#body{
+    flex: 5;
+    display: flex;
+}
+#footer{
+    flex: 1;
+    background-color: rgb(62, 208, 252);
+}
+#bodyleft{
+    flex: 1;
+    background-color: rgb(197, 243, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.display{
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px;
+}
+.active{
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px;
+    border: rgb(245, 229, 7) solid 5px;
+    
+}
+.done{
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px;
+    border: mediumblue solid 5px;
+    opacity: 30%;
+}
+#bodyright{
+    flex: 3;
+    background-color: rgb(230, 246, 252);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+button{
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: small;
+}
+#center{
+    width: 60%;
+    height: 60%;
+    border: rgb(6, 49, 92) solid 5px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
