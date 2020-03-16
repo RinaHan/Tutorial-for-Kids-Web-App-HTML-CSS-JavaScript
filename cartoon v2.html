@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cartoon ver2</title>
+        <link href="0314.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header></header>
+        <div id="web">
+            <div id="main">
+                <div id="thumbs"></div>
+                <div id="contents">
+                    <div id="center">
+                       <div id="first" onclick="firston()">
+                           <div class="text">First</div>
+                           <div id="firstimg"></div>
+                       </div>
+                       <div id="second" onclick="secondton()">
+                        <div class="text">Second</div>
+                        <div id="secondimg"></div>
+                       </div>
+                       <div id="third" onclick="thirdon()">
+                        <div class="text">Third</div>
+                        <div id="thirdimg"></div>
+                       </div>
+                       <div id="fourth" onclick="fourthon()">
+                        <div class="text">Forth</div>
+                        <div id="fourthimg"></div>
+                       </div>
+                       <div id="fifth" onclick="fifthon()">
+                        <div class="text">Fifth</div>
+                        <div id="fifthimg"></div>
+                       </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+        <script src="0314.js">
+            console.log("Hi, Rina.!!");
+        </script>
+    </body>
+</html>
+
+html, body{
+    margin: 0;
+}
+#web{
+    width: 100vw;
+    height: 100vh;
+}
+header, footer{
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    background-color: turquoise;
+}
+header{
+    top:0px;
+}
+footer{
+    bottom: 0px;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 252, 250);
+}
+#thumbs{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+#contents{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center{
+    width: 60%;
+    height: 500px;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+}
+#first{
+    flex: 1;
+    width: 100%;
+    background-color: chartreuse;
+}
+#firstimg{
+    width: 90%;
+    height: 90%;
+    background-image: url(imgs/img1.png);
+    background-size: cover;
+    background-position: center;
+}
+#second{
+    flex: 10;
+    width: 100%;
+    background-color: chocolate;
+}
+#secondimg{
+    width: 90%;
+    height: 90%;
+    background-image: url(imgs/img2.png);
+    background-size: cover;
+    background-position: center;
+}
+#third{
+    flex: 1;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+#thirdimg{
+    width: 90%;
+    height: 90%;
+    background-image: url(imgs/img3.png);
+    background-size: cover;
+    background-position: center;
+}
+#fourth{
+    flex: 1;
+    width: 100%;
+    background-color: darkgray;
+}
+#fourthimg{
+    width: 90%;
+    height: 90%;
+    background-image: url(imgs/img4.png);
+    background-size: cover;
+    background-position: center;
+}
+#fifth{
+    flex: 1;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+#fifthimg{
+    flex: 10;
+    width: 100%;
+    
+    background-image: url(imgs/img5.png);
+    background-size: cover;
+    background-position: center;
+    background-color: darkgreen;
+}
+.text{
+    flex: 2;
+    border: gold solid 1px;
+    
+}
