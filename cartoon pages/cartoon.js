@@ -1,3 +1,27 @@
+function checkiton(){
+    if (centerstate === 2) {
+    document.querySelector("#img1").className = "done";
+    document.querySelector("#img1").src = "imgs/checkitout.png";
+}else if (centerstate === 3) {
+    document.querySelector("#img2").className = "done";
+    document.querySelector("#img2").src = "imgs/checkitout.png";
+}else if (centerstate === 4) {
+    document.querySelector("#img3").className = "done";
+    document.querySelector("#img3").src = "imgs/checkitout.png";
+}else if (centerstate === 5) {
+    document.querySelector("#img4").className = "done";
+    document.querySelector("#img4").src = "imgs/checkitout.png";
+}else if (centerstate === 1) {
+    document.querySelector("#img5").className = "done";
+    document.querySelector("#img5").src = "imgs/checkitout.png";
+}
+}
+
+
+
+
+
+
 
 function Reset(){
     document.querySelector("#img1").className = "display";
@@ -6,9 +30,6 @@ function Reset(){
     document.querySelector("#img4").className = "display";
     document.querySelector("#img5").className = "display";
 }
-
-
-
 
 var centerstate=1;
 
