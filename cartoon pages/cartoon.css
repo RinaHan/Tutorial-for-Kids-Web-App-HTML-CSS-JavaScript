@@ -32,19 +32,24 @@ body{
     border-radius: 10px;
     margin: 10px;
 }
+
 .active{
-    width: 120px;
+    width: 100px;
     border-radius: 10px;
     margin: 10px;
-    border: rgb(245, 229, 7) solid 5px;
+    border: orange solid 5px;
 }
 .done{
-    width: 50%;
+    width: 100px;
     border-radius: 10px;
     margin: 10px;
-    border: gold solid 5px;
+    border: orange solid 5px;
     /* opacity: 30%; */
 }
+.display:hover {
+    background-color:orange;
+   }
+
 #bodyright{
     flex: 3;
     background-color: rgb(230, 246, 252);
@@ -59,12 +64,33 @@ button{
     margin: 20px;
     font-size: small;
 }
+button:hover{
+    background-color: orange;
+}
 #centercontent{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+#tryagain{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: rgb(179, 179, 179);
+    /* border: solid 4px rgb(179, 179, 179); */
+    border-radius: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#quiz:hover{
+    background-color: yellow;
+}
+#tryagain:hover {
+    background-color:skyblue;
+    /* font-size: medium; */
+   }
 #center{
     width: 400px;
     height: 400px;
@@ -77,14 +103,19 @@ button{
 #checkitout{
     width: 150px;
     height: 50px;
-    margin: 20px;
-    background-color: skyblue;
-    border: solid 4px skyblue;
+    /* margin: 20px 0px 0px 0px; */
+    /* background-color: skyblue; */
+    /* border: solid 4px yellow; */
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #checkitout:hover {
-    background-color:gold;
+    background-color:yellow;
+    font-size: medium;
    }
+#quiz{
+    width: 150px;
+    height: 50px;
+}
