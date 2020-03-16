@@ -1,5 +1,5 @@
 function firston(){
-    document.querySelector("#first").style.flex = "10";
+    document.querySelector("#first").style.flex = "20";
     document.querySelector("#second").style.flex = "1";
     document.querySelector("#third").style.flex = "1";
     document.querySelector("#fourth").style.flex = "1";
@@ -7,7 +7,7 @@ function firston(){
  }
  function secondton(){
     document.querySelector("#first").style.flex = "1";
-    document.querySelector("#second").style.flex = "10";
+    document.querySelector("#second").style.flex = "20";
     document.querySelector("#third").style.flex = "1";
     document.querySelector("#fourth").style.flex = "1";
     document.querySelector("#fifth").style.flex = "1";
@@ -15,7 +15,7 @@ function firston(){
  function thirdon(){
     document.querySelector("#first").style.flex = "1";
     document.querySelector("#second").style.flex = "1";
-    document.querySelector("#third").style.flex = "10";
+    document.querySelector("#third").style.flex = "20";
     document.querySelector("#fourth").style.flex = "1";
     document.querySelector("#fifth").style.flex = "1";
  }
@@ -23,7 +23,7 @@ function firston(){
     document.querySelector("#first").style.flex = "1";
     document.querySelector("#second").style.flex = "1";
     document.querySelector("#third").style.flex = "1";
-    document.querySelector("#fourth").style.flex = "10";
+    document.querySelector("#fourth").style.flex = "20";
     document.querySelector("#fifth").style.flex = "1";
  }
  function fifthon(){
@@ -31,5 +31,5 @@ function firston(){
     document.querySelector("#second").style.flex = "1";
     document.querySelector("#third").style.flex = "1";
     document.querySelector("#fourth").style.flex = "1";
-    document.querySelector("#fifth").style.flex = "10";
+    document.querySelector("#fifth").style.flex = "20";
  }
