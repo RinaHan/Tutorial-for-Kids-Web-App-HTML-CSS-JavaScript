@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz Level 1</title>
+    <link href="quiz.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="header"></div>
+    <div id="body">
+        <div id="center">
+            <div id="question_p"></div>
+            <div id="answer_p">
+                Answer:  
+                <input id="answerinput" type="text" placeholder="Type Your Answer Here" />
+                <button id="checkbutton" onclick="checkansweron()">Check Answer</button>
+            </div>
+            <div id="answerspace"></div>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+
+    <script src="quiz.js">
+        console.log("Hi, Rina.!!");
+    </script>
+</body>
+
+</html>
+
+<!-- html
+    케멘트+K+F
+<링크>
+<웹사이트>
+<a href=“http://www.google.com”>Google</a>
+<파일>
+<a href=“prac/0227/0227.html”>About us</a>
+<이미지>
+<img src="imgs/img1.jpg" />
+<인풋>
+<input type="text" placeholder="type your answer here"/>
+
+
+-----------------------------------------------------------------
+css
+-----------------------------------------------------------------
+<링크>
+<link href="app.css" rel="stylesheet" type="text/css" />
+
+<포지션>
+position(fixed, static세로, inline-block 가로, relative-righti,top전물체기준, absolute-right,top벽기준)
+
+<display>
+display: flex;
+flex-direction: column;
+
+<이미지 링크>
+#item21 {
+      background-image: url(imgs/bg21.jpg);
+      background-size:contain / cover;
+      background-position:center;
+}
+
+-   display:flex;
+-   justify-content: center;
+-   align-items: center;
+
+
+
+border:#F9A solid 5px;
+
+<커서 포인터>
+cursor: pointer;
+
+<opacity>
+opacity:0.5;
+
+<css 트렌짓>
+transition:right 0.5s;
+
+<hover>
+#capture:hover {
+ background-color:#900;
+}
+
+
+-----------------------------------------------------------------
+java
+-----------------------------------------------------------------
+<자바링크>
+<script src="app.js"></script>
+
+<백그라운드이미지 링크>
+function BackgroundImage21(){
+   document.querySelector("#적용될곳 아이디이름").style.backgroundImage = "url(imgs/bg21.jpg)";
+}
+
+<온클릭 html>
+(아이디옆에) onclick="지정단어()"
+
+<위치이동>
+function 지정단어(){
+   document.querySelector("#적용될곳 아이디이름").style.right = "0%";
+}
+
+<이미지 변경>
+function 온클릭단어(){
+   document.querySelector("#app2").style.backgroundImage = "url(imgs/bg21.jpg)";
+   document.querySelector("#display_img").src = "imgs/img1.jpg";
+}
+
+(tutorial2 열었다 닫았다)
+var state = false;
+
+function 온클릭단어-여러곳배치가능(){
+    if(state ===false){
+        document.querySelector("#modal").style.display = "flex";
+        state = true;
+    }else{
+        document.querySelector("#modal").style.display = "none";
+        state = false;
+    }
+}
+
+function Reset(){
+    document.querySelector("#thumb1").className = "thumbs";
+    document.querySelector("#thumb2").className = "thumbs";
+    document.querySelector("#thumb3").className = "thumbs";
+    document.querySelector("#thumb4").className = "thumbs";
+    document.querySelector("#thumb5").className = "thumbs";
+}
+
+function ChangeImage1(){
+    Reset();
+    document.querySelector("#display_img").src = "imgs/img1.jpg";
+    document.querySelector("#thumb1").className = "active";
+}
+
+(같은곳 계속 클릭할때 순서대로 바뀌는 것)
+var 스테이트이름 = 1;
+function 클릭원하는곳온클릭이름(){
+    if(스테이트이름 === 1){
+        이미지바뀔곳2온클릭();
+        스테이트이름 = 2;
+    }else if(스테이트이름 === 2){
+            이미지바뀔곳3온클릭();
+            스테이트이름 = 3;
+    }else if(스테이트이름 ===3){
+            이미지바뀔곳4온클릭();
+            스테이트이름 = 4;
+        }else if (스테이트이름 === 4){
+            이미지바뀔곳5온클릭();
+            스테이트이름 = 5;
+        }else if (스테이트이름 === 5){
+            이미지바뀔곳1온클릭();
+            스테이트이름 = 1;
+        }
+}
+
+(review package 같은 곳 또 클릭하면, 그다음으로 넘어가기)
+var firstex = false;
+var secondex = false;
+var thirdex = false;
+
+ function firstmainon(){
+     if (firstex === false){
+    document.querySelector("#firstmain").style.flex = "10";
+    document.querySelector("#secondmain").style.flex = "1";
+    document.querySelector("#thirdmain").style.flex = "1";
+    firstex = true;
+    secondex = false;
+    thirdex = false;
+ } else if (firstex === true){
+    document.querySelector("#firstmain").style.flex = "1";
+    document.querySelector("#secondmain").style.flex = "10";
+    document.querySelector("#thirdmain").style.flex = "1";
+    firstex = false;
+    secondex = true;
+    thirdex = false;
+ }
+}
+
+<콘솔, 경고>
+function checkansweron(){
+    var input = document.querySelector("#answer").value;
+    console.log(input)
+    if (answer === input){
+        alert("right");
+    } else{
+        alert("wrong");
+    }
+}
+
+
+<question v1 "alert(경고창)"으로 답 확인 >
+var answer = "b";
+
+function checkansweron(){
+    var input = document.querySelector("#answer").value;
+    console.log(input);
+    if(input === answer){
+        alert("correct!");
+    }else{
+        alert("wrong!");
+    }
+}
+
+<question v2 "innerHTML"로 답 확인 >
+var answer = "b";
+
+function checkansweron(){
+    var input = document.querySelector("#answer").value;
+    console.log(input);
+    if(input === answer){
+        document.querySelector("#answerspace").innerHTML = "<h1>RightRight!!</h1>";
+    }else{
+        document.querySelector("#answerspace").innerHTML = "<h1>WrongWrong!!</h1>";
+    }
+}
+
+<question v3 '질문과답' 차례로 if안에 입력>
+var answer = "b";
+var qnum = 1;
+
+function checkansweron(){
+    var input = document.querySelector("#answer").value;
+    if(answer === input){
+        document.querySelector("#answerspace").innerHTML = "<h1>RightRight!!</h1>";
+        if(qnum ===1){
+            document.querySelector("#question").innerText = "what time is it?";
+            answer = "9";
+            qnum = 2;
+        }else if(qnum ===2){
+            document.querySelector("#question").innerText = "Korean?";
+            answer = "y";
+        }
+    }else{
+        document.querySelector("#answerspace").innerHTML = "<h1>WrongWrong!!</h1>";
+    }
+}
+
+<question v4 변수에서 '질문이랑 답' 차례로>
+var qnum = 0;
+var answer = [
+    "11", 
+    "22", 
+    "33"
+];
+var question = [
+    "first", 
+    "second", 
+    "third"
+];
+
+start();
+
+function start(){
+    document.querySelector("#question").innerHTML = question[qnum];
+}
+function checkansweron(){
+    var input = document.querySelector("#answer").value;
+    console.log(input);
+    if(input ===answer[qnum]){
+        document.querySelector("#answerspace").innerHTML="<h1>RRRR</h1>";
+        qnum++;
+        document.querySelector("#question").innerHTML = question[qnum];
+}else{
+    document.querySelector("#answerspace").innerHTML="<h1>WWWW</h1>";
+}
+}
+
+------------------------------------ -->
