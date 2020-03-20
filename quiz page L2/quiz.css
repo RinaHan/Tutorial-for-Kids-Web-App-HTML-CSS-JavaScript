@@ -12,7 +12,7 @@ body{
     background-color: rgb(62, 208, 252);
 }
 #body{
-    flex: 5;
+    flex: 8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@ body{
 #center{
     width: 70%;
     height: 80%;
-    background-color: rgb(255, 165, 62);
+    background-color: rgb(125, 221, 101);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,8 +36,8 @@ body{
 }
 #img_p{
     flex: 2.5;
-    background-image: url(imgs/img1.png);
-    width: 300px;
+    width: 400px;
+    height: 200px;
     background-size: cover;
     background-position: center;
 }
@@ -69,12 +69,12 @@ body{
     height: 30px;
 }
 #checkbutton:hover{
-    background-color: indianred;
-    border: solid 1px indianred
+    background-color: rgb(66, 151, 26);
+    border: solid 1px rgb(66, 151, 26);
 }
 #respond{
-    color: indianred;
-    height: 50px;
+    color: rgb(66, 151, 26);
+    height: 80px;
 }
 
 #footer{
