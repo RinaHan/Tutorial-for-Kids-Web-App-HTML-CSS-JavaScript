@@ -11,12 +11,10 @@ body, html {
 }
 
 body {
-    background: url(
-    ../IMAGES/cool-background.png
-    );
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         
     
         
@@ -41,6 +39,29 @@ header {
     background-color:#00008b;
     color: white;
     border-bottom: ridge 1px wheat;
+}
+
+svg {
+    width: 30%;
+    height: 30%;
+}
+
+@keyframes openshut {
+    from {
+        ry: 10px;
+    }
+
+    to {
+        ry: 0;
+    }
+}
+
+#righteye, #lefteye {
+    animation: openshut 2s;
+    transition: all .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
 
 #list {
