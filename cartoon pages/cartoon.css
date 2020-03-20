@@ -32,7 +32,6 @@ body{
     border-radius: 10px;
     margin: 10px;
 }
-
 .active{
     width: 100px;
     border-radius: 10px;
@@ -56,6 +55,15 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+#level{
+    position: relative;
+    top:-250px;
+    left: 50px;
+    font-size: x-large;
+    background-color: skyblue;
+    width: 80px;
+    height: 30px;
 }
 button{
     width: 70px;

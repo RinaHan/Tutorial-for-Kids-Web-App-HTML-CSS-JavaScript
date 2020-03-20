@@ -51,7 +51,7 @@ function checkansweron(){
     var input = document.querySelector("#answerinput").value;
     console.log(input);
     if(input ===answercheck[qnum]){
-        document.querySelector("#respond").innerHTML="<h1 style=color:lightcoral;>That's right!</h1>";
+        document.querySelector("#respond").innerHTML="<h1 style=color:orange;>That's right!</h1>";
         qnum++;
         document.querySelector("#question_n").innerHTML = number_state[qnum];
         document.querySelector("#img_p").style.backgroundImage = image_state[qnum];
