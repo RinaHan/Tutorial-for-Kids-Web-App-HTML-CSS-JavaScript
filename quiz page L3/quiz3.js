@@ -8,12 +8,12 @@ var number_state = [
     "-Complete Level 3-"
 ]
 var image_state = [ 
-    "url(imgs/img4.png)",
-    "url(imgs/img1.png)",
-    "url(imgs/img3.png)",
-    "url(imgs/img2.png)",
-    "url(imgs/img5.png)",
-    "url(imgs/img6.jpg)",
+    "url(imgs_quiz3/img4.png)",
+    "url(imgs_quiz3/img1.png)",
+    "url(imgs_quiz3/img3.png)",
+    "url(imgs_quiz3/img2.png)",
+    "url(imgs_quiz3/img5.png)",
+    "url(imgs_quiz3/img6.jpg)",
 ]
 var question_state = [
     "You appealed to popularity or the fact that many people do something as an attempted form of validation.",

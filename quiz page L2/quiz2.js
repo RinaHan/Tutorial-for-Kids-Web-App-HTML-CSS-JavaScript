@@ -8,12 +8,12 @@ var number_state = [
     "-Complete Level 2-"
 ]
 var image_state = [ 
-    "url(imgs/img4.png)",
-    "url(imgs/img1.png)",
-    "url(imgs/img3.png)",
-    "url(imgs/img2.png)",
-    "url(imgs/img5.png)",
-    "url(imgs/img6.jpg)"
+    "url(imgs_quiz2/img4.png)",
+    "url(imgs_quiz2/img1.png)",
+    "url(imgs_quiz2/img3.png)",
+    "url(imgs_quiz2/img2.png)",
+    "url(imgs_quiz2/img5.png)",
+    "url(imgs_quiz2/img6.jpg)"
 ]
 var question_state = [
     "You used a double meaning or ambiguityof language to mislead or misrepresent the truth.",
