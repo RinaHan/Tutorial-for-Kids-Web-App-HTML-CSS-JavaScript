@@ -47,7 +47,7 @@ body{
 }
 #bodyleft{
     flex: 1;
-    background-color: rgb(197, 243, 255);
+    background-color: rgb(194, 248, 171);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -58,27 +58,35 @@ body{
     border-radius: 10px;
     margin: 10px;
 }
-
+#level{
+    position: relative;
+    top:-250px;
+    left: 50px;
+    font-size: x-large;
+    background-color: rgb(2, 201, 2);
+    width: 80px;
+    height: 30px;
+}
 .active{
     width: 100px;
     border-radius: 10px;
     margin: 10px;
-    border: orange solid 5px;
+    border: rgb(2, 201, 2) solid 5px;
 }
 .done{
     width: 100px;
     border-radius: 10px;
     margin: 10px;
-    border: orange solid 5px;
+    border: rgb(2, 201, 2) solid 5px;
     /* opacity: 30%; */
 }
 .display:hover {
-    background-color:orange;
+    background-color:rgb(2, 201, 2);
    }
 
 #bodyright{
     flex: 3;
-    background-color: rgb(230, 246, 252);
+    background-color: rgb(234, 247, 237);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -91,7 +99,7 @@ button{
     font-size: small;
 }
 button:hover{
-    background-color: orange;
+    background-color: rgb(2, 201, 2);
 }
 #centercontent{
     display: flex;
