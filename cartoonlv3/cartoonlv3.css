@@ -22,21 +22,38 @@ body{
     font-weight: bold;
     color: black;
 }
-#cartoonsid:hover, #cartoonsid:active {color: rgb(39, 60, 247);}
+.cartoonsmall:hover, .cartoonsmall:active {color: rgb(99, 101, 204);}
+.cartoonsmall{
+    font-size: medium;
+}
 #cartoonsid{
     flex-grow: 0.5;
     margin: 20px;
     font-weight: bold;
-    color: rgb(88, 88, 88);
     font-size: x-large;
 }
+#quizid{
+    flex-grow: 3;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+.quizsmall:hover, .quizsmall:active {color: rgb(99, 101, 204);}
+.quizsmall{
+   
+    font-size: medium;
+}
+/* #cartoonsid:hover, #cartoonsid:active {color: rgb(39, 60, 247);}
+
 #quizid:hover, #quizid:active {color: rgb(39, 60, 247);}
 #quizid{
     flex-grow: 3;
     font-weight: bold;
     color: rgb(88, 88, 88);
     font-size: x-large;
-}
+} */
+
+
 #body{
     flex: 5;
     display: flex;

@@ -22,20 +22,28 @@ body{
     font-weight: bold;
     color: black;
 }
-#cartoonsid:hover, #cartoonsid:active {color: rgb(39, 60, 247);}
+
 #cartoonsid{
     flex-grow: 0.5;
     margin: 20px;
     font-weight: bold;
-    color: rgb(88, 88, 88);
+    
     font-size: x-large;
 }
-#quizid:hover, #quizid:active {color: rgb(39, 60, 247);}
+.cartoonsmall:hover, .cartoonsmall:active {color: rgb(168, 111, 4);}
+.cartoonsmall{
+    font-size: medium;
+}
 #quizid{
     flex-grow: 3;
     font-weight: bold;
-    color: rgb(88, 88, 88);
     font-size: x-large;
+    color: black;
+}
+.quizsmall:hover, .quizsmall:active {color: rgb(168, 111, 4);}
+.quizsmall{
+   
+    font-size: medium;
 }
 #body{
     flex: 5;
