@@ -1,0 +1,68 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.Levelcontainer {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mainleveldisplay {
+    text-align: center;
+    border-radius: 25px;
+    height: 80%;
+    color: white;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    padding: 25px;
+
+}
+
+.mainleveldisplay.completed {
+    background-color:#55F51D;
+}
+
+.mainleveldisplay.completed:hover {
+    cursor: pointer;
+}
+
+.mainleveldisplay.notcompleted {
+    background-color:#939090 ;
+}
+
+.mainleveldisplay h1 {
+   
+}
+
+.subleveldisplay {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+.subleveldisplay div {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+}
+
+.subleveldisplay div.completed {
+    background-color:#55F51D;
+}
+
+.subleveldisplay div.notcompleted {
+    background-color: red;
+}
