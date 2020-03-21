@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cartoon Level 3</title>
+    <link href="cartoonlv3.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="header">
+        <a id="homeid" href="homepage.html">Fallacy</a>
+
+        <div id="cartoonsid">
+            <a>Cartoons</a>
+            <div>
+                <a class="cartoonsmall"  href="cartoon1.html">Level1</a>
+                <a class="cartoonsmall"  href="cartoonlv2.html">Level2</a>
+                <a class="cartoonsmall"  href="cartoonlv3.html">Level3</a>
+            </div>
+        </div>
+        <div id="quizid">
+            <a >Quiz</a>
+            <div>
+                <a class="quizsmall" href="quiz1.html">Level1</a>
+                <a class="quizsmall" href="quiz2.html">Level2</a>
+                <a class="quizsmall" href="quiz3.html">Level3</a>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="header">
+        <a id="homeid" href="homepage/homepage.html">Fallacy</a>
+        <a id="cartoonsid" href="cartoon lv1/cartoon1.html">Cartoons</a>
+        <a id="quizid" href="quiz page L1/quiz1.html">Quiz</a>
+    </div> -->
+    <div id="body">
+        <div id="bodyleft">
+
+            <img class="display" id="img1" onclick="img1on()" src="imgs_cartoon3/img1.png" />
+            <img class="display" id="img2" onclick="img2on()" src="imgs_cartoon3/img2.png" />
+            <img class="display" id="img3" onclick="img3on()" src="imgs_cartoon3/img3.png" />
+            <img class="display" id="img4" onclick="img4on()" src="imgs_cartoon3/img4.png" />
+            <img class="display" id="img5" onclick="img5on()" src="imgs_cartoon3/img5.png" />
+        </div>
+        <div id="bodyright">
+            <div id="level">Level 3</div>
+            <button onclick="previousbutton()">
+                <-- Previous</button>
+                    <div id="centercontent">
+                        <div><button id="tryagain" onclick="tryagainon()">Try All Again!</button>
+                                <input id="quiz" type="button" value="Let's go to Quiz 3" onclick="window.location.href='quiz3.html'" />
+                        </div>
+                        <div id="center" onclick="centeron()"></div>
+                            <button id="checkitout" onclick="checkiton()"> Check it out!</button>
+                    </div>
+                    <button onclick="nextbuttonon()">--> <br> Next</button>
+
+        </div>
+    </div>
+    <div id="footer"></div>
+
+    <script src="cartoonlv3.js">
+        console.log("Hi, Rina.!!");
+    </script>
+</body>
+
+</html>
+
+
