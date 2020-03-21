@@ -63,17 +63,17 @@ body{
     width: 100px;
     border-radius: 10px;
     margin: 10px;
-    border: orange solid 5px;
+    border: rgb(106, 168, 248) solid 5px;
 }
 .done{
     width: 100px;
     border-radius: 10px;
     margin: 10px;
-    border: orange solid 5px;
+    border: rgb(106, 168, 248) solid 5px;
     /* opacity: 30%; */
 }
 .display:hover {
-    background-color:orange;
+    background-color:rgb(106, 168, 248);
    }
 
 #bodyright{
@@ -91,7 +91,7 @@ button{
     font-size: small;
 }
 button:hover{
-    background-color: orange;
+    background-color: rgb(106, 168, 248);
 }
 #centercontent{
     display: flex;
@@ -144,4 +144,13 @@ button:hover{
 #quiz{
     width: 150px;
     height: 50px;
+}
+#level{
+    position: relative;
+    top:-250px;
+    left: 50px;
+    font-size: x-large;
+    background-color: skyblue;
+    width: 80px;
+    height: 30px;
 }
