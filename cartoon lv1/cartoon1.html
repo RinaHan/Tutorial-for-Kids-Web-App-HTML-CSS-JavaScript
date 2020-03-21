@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cartoon 1</title>
+    <link href="cartoon1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="header">
+        <a id="homeid" href="homepage/homepage.html">Fallacy</a>
+        <a id="cartoonsid" href="cartoon lv1/cartoon.html">Cartoons</a>
+        <a id="quizid" href="quiz page L1/quiz.html">Quiz</a>
+    </div>
+    <div id="body">
+        <div id="bodyleft">
+            <img class="display" id="img1" onclick="img1on()" src="imgs_cartoon1/img1.png" />
+            <img class="display" id="img2" onclick="img2on()" src="imgs_cartoon1/img2.png" />
+            <img class="display" id="img3" onclick="img3on()" src="imgs_cartoon1/img3.png" />
+            <img class="display" id="img4" onclick="img4on()" src="imgs_cartoon1/img4.png" />
+            <img class="display" id="img5" onclick="img5on()" src="imgs_cartoon1/img5.png" />
+        </div>
+        <div id="bodyright">
+            <div id="level">Level 1</div>
+            <button onclick="previousbutton()">
+                <-- Previous</button>
+                    <div id="centercontent">
+                        <div><button id="tryagain" onclick="tryagainon()">Try All Again!</button>
+                        <button id="quiz" onclick="quizon()">Let's go to Quiz</button></div>
+                        <div id="center" onclick="centeron()"></div>
+                            <button id="checkitout" onclick="checkiton()"> Check it out!</button>
+                    </div>
+                    <button onclick="nextbuttonon()">--> <br> Next</button>
+
+        </div>
+    </div>
+    <div id="footer"></div>
+
+    <script src="cartoon1.js">
+        console.log("Hi, Rina.!!");
+    </script>
+</body>
+
+</html>

@@ -8,12 +8,12 @@ var number_state = [
     "-Complete Level 1-"
 ]
 var image_state = [ 
-    "url(imgs/img4.png)",
-    "url(imgs/img1.png)",
-    "url(imgs/img3.png)",
-    "url(imgs/img2.png)",
-    "url(imgs/img5.png)",
-    "url(imgs/img6.jpg)",
+    "url(imgs_quiz1/img4.png)",
+    "url(imgs_quiz1/img1.png)",
+    "url(imgs_quiz1/img3.png)",
+    "url(imgs_quiz1/img2.png)",
+    "url(imgs_quiz1/img5.png)",
+    "url(imgs_quiz1/img6.jpg)",
 ]
 var question_state = [
     "You avoided having to engage with criticism by turning it back on the accuser - you answered criticism with criticism.",
