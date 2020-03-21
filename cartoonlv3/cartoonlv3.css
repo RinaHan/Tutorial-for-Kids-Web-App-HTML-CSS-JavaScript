@@ -141,9 +141,11 @@ button:hover{
     background-color:yellow;
     font-size: medium;
    }
-#quiz{
+   #quiz{
     width: 150px;
     height: 50px;
+    /* border: orange solid 2px; */
+    color: black;
 }
 #level{
     position: relative;
