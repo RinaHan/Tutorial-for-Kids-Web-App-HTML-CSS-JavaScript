@@ -30,7 +30,7 @@ background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, F
     align-self: flex-end;
 }
 
-header {
+/* header {
     position: fixed;
     top: 0px;
     left: 0;
@@ -39,7 +39,7 @@ header {
     background-color:#00008b;
     color: white;
     border-bottom: ridge 1px wheat;
-}
+} */
 
 svg {
     width: 30%;
@@ -64,7 +64,47 @@ svg {
 
 }
 
-#list {
+#header{
+    flex: 1;
+    background-color: rgb(62, 208, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homeid:hover, #homeid:active {color: rgb(3, 32, 194);}
+#homeid{
+    flex-grow: 1;
+    font-size: xx-large;
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+#cartoonsid{
+    flex-grow: 0.5;
+    margin: 20px;
+    font-weight: bold;
+    
+    font-size: x-large;
+}
+.cartoonsmall:hover, .cartoonsmall:active {color: rgb(3, 32, 194);}
+.cartoonsmall{
+    font-size: medium;
+}
+#quizid{
+    flex-grow: 3;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+.quizsmall:hover, .quizsmall:active {color: rgb(3, 32, 194);}
+.quizsmall{
+   
+    font-size: medium;
+}
+
+
+/* #list {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -104,7 +144,7 @@ nav a:hover  {
 nav a:active  {
     color: white;
     text-decoration: none;
-}
+} */
 
 
 #main_item {
