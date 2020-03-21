@@ -10,6 +10,32 @@ body{
 #header{
     flex: 1;
     background-color: rgb(62, 208, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homeid:hover, #homeid:active {color: rgb(39, 60, 247);}
+#homeid{
+    flex-grow: 1;
+    font-size: xx-large;
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+}
+#cartoonsid:hover, #cartoonsid:active {color: rgb(39, 60, 247);}
+#cartoonsid{
+    flex-grow: 0.5;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+    font-size: x-large;
+}
+#quizid:hover, #quizid:active {color: rgb(39, 60, 247);}
+#quizid{
+    flex-grow: 3;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+    font-size: x-large;
 }
 #body{
     flex: 5;
@@ -98,7 +124,7 @@ button:hover{
     border-radius: 20px;
     background-size: cover;
     background-position: center;
-    background-image: url(imgs/img1.png);
+    background-image: url(imgs_cartoon2/img1.png);
 }
 #checkitout{
     width: 150px;
