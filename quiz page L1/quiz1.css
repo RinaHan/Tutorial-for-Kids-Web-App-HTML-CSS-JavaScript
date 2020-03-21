@@ -14,7 +14,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-#homeid:hover, #homeid:active {color: rgb(39, 60, 247);}
+#homeid:hover, #homeid:active {color: rgb(168, 111, 4);}
 #homeid{
     flex-grow: 1;
     font-size: xx-large;
@@ -22,21 +22,39 @@ body{
     font-weight: bold;
     color: black;
 }
-#cartoonsid:hover, #cartoonsid:active {color: rgb(39, 60, 247);}
+
+.cartoonsmall:hover, .cartoonsmall:active {color: rgb(168, 111, 4);}
+.cartoonsmall{
+    font-size: medium;
+}
 #cartoonsid{
     flex-grow: 0.5;
     margin: 20px;
     font-weight: bold;
-    color: rgb(88, 88, 88);
+    
     font-size: x-large;
 }
+#quizid{
+    flex-grow: 3;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+.quizsmall:hover, .quizsmall:active {color: rgb(168, 111, 4);}
+.quizsmall{
+   
+    font-size: medium;
+}
+
+/* #cartoonsid:hover, #cartoonsid:active {color: rgb(39, 60, 247);}
+
 #quizid:hover, #quizid:active {color: rgb(39, 60, 247);}
 #quizid{
     flex-grow: 3;
     font-weight: bold;
     color: rgb(88, 88, 88);
     font-size: x-large;
-}
+} */
 #body{
     flex: 8;
     display: flex;
