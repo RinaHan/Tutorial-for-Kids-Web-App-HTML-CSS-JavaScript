@@ -1,0 +1,137 @@
+html, body{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    flex: 1;
+    background-color: rgb(62, 208, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homeid:hover, #homeid:active {color: rgb(168, 111, 4);}
+#homeid{
+    flex-grow: 1;
+    font-size: xx-large;
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+}
+#cartoonsid{
+    flex-grow: 0.5;
+    margin: 20px;
+    font-weight: bold;
+    
+    font-size: x-large;
+}
+.cartoonsmall:hover, .cartoonsmall:active {color: rgb(168, 111, 4);}
+.cartoonsmall{
+    font-size: medium;
+}
+#quizid{
+    flex-grow: 3;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+.quizsmall:hover, .quizsmall:active {color: rgb(168, 111, 4);}
+.quizsmall{
+   
+    font-size: medium;
+}
+#body{
+    flex: 5;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+#footer{
+    flex: 1;
+    background-color: rgb(62, 208, 252);
+}
+#level1{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#level2{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#level3{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#leve1_up, #leve2_up, #leve3_up{
+    /* background-color: orange; */
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+}
+#leve1_up{
+    background-color: orange;
+}
+#hover1:hover{
+    background-color: rgb(214, 102, 37);
+}
+#leve2_up{
+    background-color: rgb(124, 252, 69);
+}
+#hover2:hover{
+    background-color: rgb(60, 194, 3);
+}
+#leve3_up{
+    background-color: skyblue;
+}
+#hover3:hover{
+    background-color: rgb(79, 163, 196);
+}
+
+#leve_down{
+    flex: 1;
+    display: flex;
+}
+.l1_boxes{
+    width: 50px;
+    height: 70px;
+    margin: 10px 5px 0px;
+    background-color: rgb(230, 150, 3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.l2_boxes{
+    width: 50px;
+    height: 70px;
+    margin: 10px 5px 0px;
+    background-color: rgb(107, 216, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.l3_boxes{
+    width: 50px;
+    height: 70px;
+    margin: 10px 5px 0px;
+    background-color: rgb(102, 180, 211);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
